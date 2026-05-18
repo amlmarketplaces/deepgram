@@ -1,0 +1,44 @@
+{
+  "name": "deepgram",
+  "owner": {
+    "name": "Deepgram"
+  },
+  "description": "Claude Code marketplace federating every @amlplugins/deepgram-* plugin under a single marketplace source.",
+  "plugins": [
+    {
+      "name": "deepgram-agent",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/deepgram-agent.git"
+      }
+    },
+    {
+      "name": "deepgram-listen",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/deepgram-listen.git"
+      }
+    },
+    {
+      "name": "deepgram-listen-live",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/deepgram-listen-live.git"
+      }
+    },
+    {
+      "name": "deepgram-manage",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/deepgram-manage.git"
+      }
+    },
+    {
+      "name": "deepgram-speak",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/deepgram-speak.git"
+      }
+    }
+  ]
+}
